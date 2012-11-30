@@ -13,7 +13,10 @@ For those who are interested, the editors execute your code using [BiwaScheme](h
 
 ## NOTE: This is not only unfinished... THERE IS NO CONTENT YET!!!
 TODO:
+- footnote link to tooltip conversion
 - scrape the book from the website and compile it to data
+  - treat code and results separately
+  - isolate footnotes from other links
 - add the data import functionality
 - enable vim keybindings
 - put some kind of layout around the content
