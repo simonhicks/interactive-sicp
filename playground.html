@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- jquery -->
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+
+    <!-- code mirror -->
+    <!--<link rel="stylesheet" href="assets/codemirror/lib/codemirror.css">-->
+    <!--<script src="assets/codemirror/lib/codemirror.js"></script>-->
+    <!--<script src="assets/codemirror/mode/scheme/scheme.js"></script>-->
+    <link rel="stylesheet" href="assets/css/codemirror.css">
+    <script src="assets/js/codemirror.js"></script>
+    <script src="assets/js/scheme.js"></script>
+    <style>
+      .CodeMirror-scroll {
+        height: auto;
+        overflow-y: hidden;
+        overflow-x: auto;
+      }
+
+      .offset-half {
+        margin-left: 5px;
+      }
+    </style>
+
+    <!-- Biwa Scheme -->
+    <script src="assets/js/biwascheme.min.js"></script>
+
+    <script type="text/javascript" src="assets/js/editor.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+
+      <p>
+        One easy way to get started at programming is to examine some typical interactions with an
+        interpreter for the Scheme dialect of Lisp. Imagine that you are sitting at a computer
+        terminal. You type an expression, and the interpreter responds by displaying the result of its
+        evaluating that expression.
+      </p>
+
+      <p>
+        One kind of primitive expression you might type is a number. (More precisely, the
+        expression that you type consists of the numerals that represent the number in base 10.) If
+        you present Lisp with a number
+      </p>
+
+      <tt>486</tt>
+
+      <p>
+        the interpreter will respond by printing <a href="#blah"><i><small>5</small></i></small></a>
+      </p>
+
+      <tt>486</tt>
+
+      <p>Expressions representing numbers may be combined with an expression representing a
+      primitive procedure (such as + or *) to form a compound expression that represents the
+      application of the procedure to those numbers. For example:</p>
+
+      <tt>(+ 23 46)</tt>
+
+    </div>
+  </body>
+</html>
